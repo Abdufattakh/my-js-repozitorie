@@ -41,24 +41,24 @@
 //
 
 // ==========================  Задание 1
-const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?");
+// const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?");
 
-// ==========================  Задание 2
-const personalMovieDB = {
-  count: numberOfFilms,
-  movies: {},
-  actors: {},
-  genres: [],
-  privat: false,
-};
+// // ==========================  Задание 2
+// const personalMovieDB = {
+//   count: numberOfFilms,
+//   movies: {},
+//   actors: {},
+//   genres: [],
+//   privat: false,
+// };
 
-// ==========================  Задание 3
-const movies = {};
-const question1 = prompt("один из последных просмотренных фильмов ?", ""),
-  a = prompt("один из последных просмотренных фильмов ?", "");
-const qustion2 = +prompt("На сколько оцените его"),
-  b = +prompt("На сколько оцените его");
+// // ==========================  Задание 3
+// const movies = {};
+// const question1 = prompt("один из последных просмотренных фильмов ?", ""),
+//   a = prompt("один из последных просмотренных фильмов ?", "");
+// const qustion2 = +prompt("На сколько оцените его"),
+//   b = +prompt("На сколько оцените его");
 
-personalMovieDB.movies[question1] = a;
-personalMovieDB.movies[qustion2] = b;
-console.log(personalMovieDB);
+// personalMovieDB.movies[question1] = a;
+// personalMovieDB.movies[qustion2] = b;
+// console.log(personalMovieDB);
