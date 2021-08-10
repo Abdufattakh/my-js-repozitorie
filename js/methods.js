@@ -1,6 +1,3 @@
-"use strict";
-
-
 
 const test = "HEllo";
 const arr = [1, 2, 3];
